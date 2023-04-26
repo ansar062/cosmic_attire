@@ -1,0 +1,42 @@
+.bottom {
+    display: flex;
+    align-items: left;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    .left {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            color: rgb(40, 99, 99);
+            font-weight: bold;
+            font-size: 24px;
+
+        }
+
+        .copyright {
+            margin-left: 20px;
+            font-size: 12px;
+            color: gray;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .bottom {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        .left{
+            
+            .logo{
+                font-size: 20px;
+            }
+            .copyright{
+                font-size: 10px;
+            }
+        }
+    }
+
+}

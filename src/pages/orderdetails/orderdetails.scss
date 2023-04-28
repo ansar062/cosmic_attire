@@ -1,0 +1,88 @@
+.orderdetails {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    .howtoorder {
+        margin-top: 20px;
+        display: flex;
+        img {
+            height: 400px;
+            width: 30%;
+        }
+
+        .detailss {
+            padding-right: 30px;
+            padding-top: 30px;
+            p {
+                padding-top: 10px;
+            }
+
+            button{
+                margin-top: 100px;
+                color: white;
+                background: #333;
+                border: none;
+                border-radius: 5px 5px 5px 5px;
+                padding: 10px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .shippinginfo {
+        margin-top: 40px;
+        display: flex;
+        gap: 20%;
+        .detailss2{
+            padding-left: 120px;
+            p{
+                padding-top: 10px;
+            }
+        }
+        img{
+        }
+    }
+    .paymentmethods{
+        display: flex;
+        margin-top: 40px;
+        gap: 5%;
+        img{
+            padding-left: 10%;
+            height: 200;
+            width: 20%;
+        }
+        .details3{
+            p{
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .orderdetails {
+        .howtoorder {
+            display: grid;
+            img {
+                height: 200px;
+                width: 40%;
+            }
+        }
+    
+        .shippinginfo {
+            display: grid;
+            .detailss2{
+                padding-left: 2px;
+            }
+        }
+        .paymentmethods{
+            display: grid;
+            margin-top: 100px;
+            img{
+                padding-left: 0%;
+                width: 40%;
+            }
+        }
+    }
+}
